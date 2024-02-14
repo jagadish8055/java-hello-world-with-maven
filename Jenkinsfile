@@ -16,10 +16,6 @@ pipeline{
             steps{
                bat 'mvn package'
             }
-        stage('complete'){
-            steps{
-               echo  " job  completed"
-            }    
-        }
+        
     }
 }
